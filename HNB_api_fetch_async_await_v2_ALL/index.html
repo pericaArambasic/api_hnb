@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Converter</title>
+</head>
+
+<body>
+
+  <div id="main-container" class="container-fluid">
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Država</th>
+          <th scope="col">Valuta</th>
+          <th scope="col">Tečaj</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="drzava1"></td>
+          <td id="valuta1"></td>
+          <td id="tecaj1"></td>
+        </tr>
+        <tr>
+          <td id="drzava2"></td>
+          <td id="valuta2"></td>
+          <td id="tecaj2"></td>
+        </tr>
+        <tr>
+          <td id="drzava3"></td>
+          <td id="valuta3"></td>
+          <td id="tecaj3"></td>
+        </tr>
+        <tr>
+          <td id="drzava4"></td>
+          <td id="valuta4"></td>
+          <td id="tecaj4"></td>
+        </tr>
+        <tr>
+          <td id="drzava5"></td>
+          <td id="valuta5"></td>
+          <td id="tecaj5"></td>
+        </tr>
+        <tr>
+          <td id="drzava6"></td>
+          <td id="valuta6"></td>
+          <td id="tecaj6"></td>
+        </tr>
+        <tr>
+          <td id="drzava7"></td>
+          <td id="valuta7"></td>
+          <td id="tecaj7"></td>
+        </tr>
+        <tr>
+          <td id="drzava8"></td>
+          <td id="valuta8"></td>
+          <td id="tecaj8"></td>
+        </tr>
+        <tr>
+          <td id="drzava9"></td>
+          <td id="valuta9"></td>
+          <td id="tecaj9"></td>
+        </tr>
+        <tr>
+          <td id="drzava10"></td>
+          <td id="valuta10"></td>
+          <td id="tecaj10"></td>
+        </tr>
+        <tr>
+          <td id="drzava11"></td>
+          <td id="valuta11"></td>
+          <td id="tecaj11"></td>
+        </tr>
+        <tr>
+          <td id="drzava12"></td>
+          <td id="valuta12"></td>
+          <td id="tecaj12"></td>
+        </tr>
+        <tr>
+          <td id="drzava13"></td>
+          <td id="valuta13"></td>
+          <td id="tecaj13"></td>
+        </tr>
+        <tr>
+          <td id="drzava14"></td>
+          <td id="valuta14"></td>
+          <td id="tecaj14"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 id="info">===> HRK</h3>
+
+    <div class="container-sm">
+      <form action="">
+        <div class="row">
+          <div class="col">
+            <h5>Value to convert :</h5>
+            <input id="inputValue" type="number" min="0">
+            <select name="currencyToConvert" id="select">
+              <option selected>Choose Currency</option>
+              <option value="AUD">AUD</option>
+              <option value="CAD">CAD</option>
+              <option value="CZK">CZK</option>
+              <option value="DKK">DKK</option>
+              <option value="HUF">HUF</option>
+              <option value="JPY">JPY</option>
+              <option value="NOK">NOK</option>
+              <option value="SEK">SEK</option>
+              <option value="CHF">CHF</option>
+              <option value="GBP">GBP</option>
+              <option value="USD">USD</option>
+              <option value="BAM">BAM</option>
+              <option value="EUR">EUR</option>
+              <option value="PLN">PLN</option>
+            </select>
+            <select name="currencyFormat" id="formatChoice">
+              <option value="">Choose Format</option>
+              <option value="US">US format</option>
+              <option value="DE">DE format</option>
+            </select>
+            <br>
+            <br>
+            <h5>Converted value : <span id="result"></span></h5>
+            <button id="convert" type="button" class="btn btn-primary">Convert</button>
+            <button id="convert2" type="button" class="btn btn-primary">CONVERT</button>
+            <br>
+            <br>
+            <button id="swap" type="button" class="btn btn-primary"><img
+                src="https://img.icons8.com/ios-filled/24/000000/data-in-both-directions.png" /></button>
+          </div>
+        </div>
+
+
+
+        <script src="app.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+          integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+          integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
